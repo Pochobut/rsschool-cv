@@ -31,6 +31,8 @@ where I continued self-learning, examining the process of creating wine and food
 * Git, GitHub
 * VS Code
 * Adobe Photoshop
+
+
 ---
 
 ### Code example:
