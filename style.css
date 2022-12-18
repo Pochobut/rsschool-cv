@@ -1,1 +1,65 @@
 p {color: blue;}
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+.conteiner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrap { 
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    background-color: aqua;
+    height: 100px;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: beige;
+    
+    
+}
+
+.nav{
+    border: 1px solid green;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background-color: blue;
+    
+}
+ .footer-year{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    height: 80px;
+ }
+
+ .footer-github {
+    width: 33%;
+    height: 80px;
+ }
