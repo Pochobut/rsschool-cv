@@ -20,21 +20,21 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     
-    background-color: aqua;
+    
     height: 100px;
 }
 
 .header {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
+    
     background-color: beige;
     
     
 }
 
 .nav{
-    border: 1px solid green;
+    
 }
 
 .nav_list {
@@ -67,6 +67,7 @@ width: ;
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    background-color: bisque;
 }
 
 .section {
@@ -101,7 +102,7 @@ width: ;
     width: 100%;
     margin: 0 auto;
     height: 80px;
-    background-color: blue;
+    background-color: rgb(160, 160, 182);
     
 }
  .footer-year{
@@ -115,12 +116,17 @@ width: ;
  .footer-github {
     
     height: 80px;
-    text-align: center;
-    line-height: 50px;
+
+   text-align: justify;
+   line-height: 80px;
  }
 
- .footer-rsschool{
+ .footer-rsschool {
+    
+    line-height: 80px;
+    text-align: justify;
+ }
+
+ .footer-rsschool img{
     height: 80px;
-    text-align: center;
-    line-height: 50px;
  }
